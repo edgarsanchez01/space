@@ -1,0 +1,29 @@
+<div class="wrapper">
+  <h1 style="background-color: magenta;">Edgar Sánchez Flores</h1>
+  <!-- <div class="gallery">
+    <div class="item" *ngFor="let item of data">
+      <h1>{{ item.name }}</h1>
+      <p>{{ item.description }}</p>
+      <div class="imgs">
+        <img [src]="img" alt="" *ngFor="let img of item.flickr_images">
+      </div>
+    </div>
+  </div> -->
+  <div class="capsule">
+    <div class="item" *ngFor="let item of data2">
+      <h2>{{item.serial}}</h2>
+      <p>{{item.status}}</p>
+      <p>{{item.type}}</p>
+      <p>{{item.id}}</p>
+    </div>
+  </div>
+  <div class="company">
+    <div class="item" *ngFor="let item of data3">
+      <p>{{item.name}}</p>
+      <p>{{item.founder}}</p>
+      <p>{{item.founded}}</p>
+      <p>{{item.employees}}</p>
+      <p>{{item.vehicles}}</p>
+    </div>
+  </div>
+</div>
